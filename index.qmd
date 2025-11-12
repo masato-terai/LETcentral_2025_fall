@@ -1,5 +1,5 @@
 ---
-title: "後で挿入"
+title: "継続的な協同学習が英語学習動機づけに及ぼす影響の検討：ジグソーリーディングを事例として"
 subtitle: "第105回支部研究大会 @ 静岡大学 浜松キャンパス"
 author: "寺井雅人 (愛知工科大学)、三上綾介（愛知学院大学）、川口勇作（愛知学院大学）"
 date: today
@@ -14,3 +14,22 @@ highlight-style: atom-one
 code-line-numbers: false
 ---
 
+# 本研究
+
+# 分析
+## 回帰分析
+
+# 結果
+## 記述統計
+
+## 回帰分析の結果
+
+```{r echo = F, out.width="100%", fig.align="center"}
+knitr::include_graphics("pic/plot_group_em.png")
+```
+
+# 議論
+
+# 引用文献
+
+# スライドの最後です
