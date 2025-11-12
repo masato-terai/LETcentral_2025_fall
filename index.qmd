@@ -1,5 +1,16 @@
 ---
-title: "Untitled"
-format: html
+title: "後で挿入"
+subtitle: "第105回支部研究大会 @ 静岡大学 浜松キャンパス"
+author: "寺井雅人 (愛知工科大学)、三上綾介（愛知学院大学）、川口勇作（愛知学院大学）"
+date: today
+date-format: "DD-MM-YYYY"
+last-modified: true
+format: 
+  revealjs:
+    theme: simple
+    slide-number: true
+scrollable: true
+highlight-style: atom-one
+code-line-numbers: false
 ---
 
