@@ -51,7 +51,9 @@ code-line-numbers: false
 
 ## モデルの確認
 ### 事後予測チェック
-- （pp_checkのプロットを入れる）
+```{r echo = F, fig.align="center"}
+knitr::include_graphics("pic/pp_check_fit1.png")
+```
 
 ## 回帰分析の結果
 
