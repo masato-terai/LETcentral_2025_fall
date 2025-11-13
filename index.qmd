@@ -63,8 +63,6 @@ knitr::include_graphics("pic/plot_3way_group.png")
 
 ## 交互作用のより詳細な分析
 
-### 統制群、対照群それぞれで、事前-事後得点に顕著な伸びが見られるか？
-
 - 基本的心理欲求の３因子
 
   - 両群とも顕著な伸びを示した
@@ -72,6 +70,8 @@ knitr::include_graphics("pic/plot_3way_group.png")
 - 英語学習動機づけの４因子
 
   - 対照群のみで伸びがみられた
+
+## 交互作用のより詳細な分析
 
 ```{r echo = F, out.width="100%", fig.align="center"}
 knitr::include_graphics("pic/plot_group_em.png")
