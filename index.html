@@ -139,13 +139,24 @@
 </div>
 </div>
 
-  <p class="date">12-11-2025</p>
+  <p class="date">13-11-2025</p>
 </section>
+<section id="先行研究" class="title-slide slide level1 center">
+<h1>先行研究</h1>
+
+</section>
+
+<section>
 <section id="本研究" class="title-slide slide level1 center">
 <h1>本研究</h1>
 
 </section>
-
+<section id="参加者の属性" class="slide level2">
+<h2>参加者の属性</h2>
+<ul>
+<li>語彙サイズ得点の分布を掲載</li>
+</ul>
+</section></section>
 <section>
 <section id="分析" class="title-slide slide level1 center">
 <h1>分析</h1>
@@ -154,7 +165,21 @@
 <section id="回帰分析" class="slide level2">
 <h2>回帰分析</h2>
 <ul>
-<li>ここから編集</li>
+<li><p>従属変数：質問紙の得点</p></li>
+<li><p>独立変数：</p>
+<ul>
+<li>交互作用
+<ul>
+<li>質問紙実施のタイミング（開始/終了時）</li>
+<li>情意因子
+<ul>
+<li>事前/事後の得点を合算し、基本的心理欲求、英語学習動機付けそれぞれで因子得点を算出</li>
+</ul></li>
+<li>調査グループ（統制/対照）</li>
+</ul></li>
+<li>語彙サイズテスト得点（習熟度）</li>
+</ul></li>
+<li><p>欠損値を含む参加者のデータは除外をして分析を行った</p></li>
 </ul>
 </section></section>
 <section>
@@ -164,14 +189,53 @@
 </section>
 <section id="記述統計" class="slide level2">
 <h2>記述統計</h2>
+<ul>
+<li>何を載せる方がよい？得点を見せても分かりずらい気もする</li>
+</ul>
+</section>
+<section id="モデルの確認" class="slide level2">
+<h2>モデルの確認</h2>
+<h3 id="収束診断">収束診断</h3>
+<ul>
+<li>全ての係数のRハットは1.01未満</li>
+<li>全ての係数のEffective Sample Sizeは5000以上</li>
+<li>Divergent transitionsは0</li>
+</ul>
+</section>
+<section id="モデルの確認-1" class="slide level2">
+<h2>モデルの確認</h2>
+<h3 id="事後予測チェック">事後予測チェック</h3>
+<ul>
+<li>（pp_checkのプロットを入れる）</li>
+</ul>
 </section>
 <section id="回帰分析の結果" class="slide level2">
 <h2>回帰分析の結果</h2>
+<ul>
+<li>3要因の交互作用に顕著な効果が得られた</li>
+</ul>
+
+<img data-src="pic/plot_3way_group.png" class="quarto-figure quarto-figure-center r-stretch" width="1200"></section>
+<section id="交互作用のより詳細な分析" class="slide level2">
+<h2>交互作用のより詳細な分析</h2>
+<h3 id="統制群対照群それぞれで事前-事後得点に顕著な伸びが見られるか">統制群、対照群それぞれで、事前-事後得点に顕著な伸びが見られるか？</h3>
+<ul>
+<li><p>基本的心理欲求の３因子</p>
+<ul>
+<li>両群とも顕著な伸びを示した</li>
+</ul></li>
+<li><p>英語学習動機づけの４因子</p>
+<ul>
+<li>対照群のみで伸びがみられた</li>
+</ul></li>
+</ul>
 
 <img data-src="pic/plot_group_em.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section></section>
 <section id="議論" class="title-slide slide level1 center">
 <h1>議論</h1>
-
+<ul>
+<li>メモ：分析の結果、約半年間の協同学習により、基本的心理欲求が先に高まる一方で、英語学習動機づけの向上は限定的であることが示唆された。</li>
+</ul>
 </section>
 
 <section id="引用文献" class="title-slide slide level1 center">
