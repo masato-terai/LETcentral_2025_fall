@@ -1,4 +1,4 @@
-# This is a temporary repository for a presentation at Methoken Kochi.
+# This is a temporary repository for a presentation.
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=masato-terai.LETcentral_2025_fall)
 
 
