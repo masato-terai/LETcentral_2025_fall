@@ -5,17 +5,11 @@ author: "寺井雅人 (愛知工科大学)、三上綾介（愛知学院大学�
 date: today
 date-format: "DD-MM-YYYY"
 last-modified: true
-format: 
+format:
   revealjs:
     theme: simple
     slide-number: true
     scrollable: true
-    include-after-body: |
-      <script>
-        window.addEventListener("load", function () {
-          alert("←→キーで移動できます。スクロールも可能です。");
-        });
-      </script>
 highlight-style: atom-one
 code-line-numbers: false
 ---
