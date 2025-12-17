@@ -9,7 +9,13 @@ format:
   revealjs:
     theme: simple
     slide-number: true
-scrollable: true
+    scrollable: true
+    include-after-body: |
+      <script>
+        window.addEventListener("load", function () {
+          alert("←→キーで移動できます。スクロールも可能です。");
+        });
+      </script>
 highlight-style: atom-one
 code-line-numbers: false
 ---
@@ -38,9 +44,9 @@ code-line-numbers: false
 - 理想L2自己、義務L2自己ともに、わかりやすさと訛り度を予測しない​
 
 ## 自己決定理論​
-- 行動に対する自律性（自己決定性）の程度が、その行動の成果に影響を及ぼすと言う動機づけの理論（Deci & Ryan, 2017）​
+- 動機づけの理論：行動に対する自律性（自己決定性）の程度が、その行動の成果に影響を及ぼす（Deci & Ryan, 2017）​
 
-## 自己決定理論の有機的統合理論における動機づけの枠組み​
+## 自己決定理論における動機づけの枠組み​
 ```{r echo = F, fig.align="center"}
 knitr::include_graphics("pic/selfdetermination.png")
 ```
@@ -52,7 +58,7 @@ knitr::include_graphics("pic/selfdetermination.png")
 ​
 - **有能感**​: 自分が十分な能力を持ち、課題を遂行・達成できることを示す機会を求める欲求の程度​
 
-## 自己決定理論によると…​
+## 自己決定理論によると
 
 - 基本的心理欲求の充足により動機づけが向上し、より主体的に行動に取り組む（行動が内在化される）ようになる（Noels, 2023）​
 
@@ -62,31 +68,17 @@ knitr::include_graphics("pic/selfdetermination.png")
   
 - 協同学習により、学習者の学習意欲が向上する可能性（Busse & Walter, 2013; Dörnyei, 2001）​
 
-## Bećirović et al. (2022)​
-- 対象：ボスニア・ヘルツェゴビナの高校生に通う1年生から4年生のEFL学習者211名​
-
-- 協同学習：これまでに経験した協同学習に対する印象の質問紙調査​
-
-  - 協同学習を構成する5要素に関する印象を5段階で回答​
-  - 5要素：肯定的相互依存、個人責任、促進的相互作用、対人技能、集団の振り返り​
-​
-- 動機づけ：Schmidt and Watanabe（2001）に基づいた質問紙調査
-  - 動機づけを構成する4つの下位尺度に関する質問に5段階で回答​
-  - 4つの下位尺度：内発的動機づけ、外国語や異文化への関心、期待統制、動機づけの強さ​
-
-- 結果​
-  - 内発的動機づけと促進的相互作用の関連を除き、協同学習と動機づけのすべての組み合わせで有意な正の相関​
-
 ## Alamdari and Ghani (2021)​
 - 中級外国語学習者180名（90名：英語学習者、90名：ペルシャ語学習者）​
   - 実験群1：2種類の協同学習を受講​
-  - 実験群2：実験群1とは異なる共同学習を受講​
-  - 統制群：実験群1・2と同一の教材を使用して通常の授業を受講​
+  - 実験群2：実験群1とは異なる協同学習を受講​
+  - 統制群：実験群1・2と同一の教材を使用し通常の授業を受講​
 ​
-- 実験群でのみ、無動機、外発的動機づけ、内発的動機づけの7因子が有意に改善​
+- 実験群でのみ、無動機、外発的動機づけ、内発的動機づけが有意に改善​
   - 2つの実験群の間では有意な差はなし​
 
-## 協同学習の5つの要素（Johnson & Johnson, 1994）​
+## 協同学習の5つの要素
+- Johnson & Johnson, (1994)
 
 1. 肯定的相互依存（Positive Interdependence）​
 2. 個人責任（Individual Accountability）​
@@ -131,6 +123,21 @@ knitr::include_graphics("pic/selfdetermination.png")
   - 次回もっと良くするには？​
   - 全員が参加できていたか？​
 
+## Bećirović et al. (2022)​
+- 対象：ボスニア・ヘルツェゴビナの高校生に通う1年生から4年生のEFL学習者211名​
+
+- 協同学習：これまでに経験した協同学習に対する印象の質問紙調査​
+
+  - 協同学習を構成する5要素に関する印象を5段階で回答​
+  - 5要素：肯定的相互依存、個人責任、促進的相互作用、対人技能、集団の振り返り​
+​
+- 動機づけ：Schmidt and Watanabe（2001）に基づいた質問紙調査
+  - 動機づけを構成する4つの下位尺度に関する質問に5段階で回答​
+  - 4つの下位尺度：内発的動機づけ、外国語や異文化への関心、期待統制、動機づけの強さ​
+
+- 結果​
+  - 内発的動機づけと促進的相互作用の関連を除き、協同学習と動機づけのすべての組み合わせで有意な正の相関​
+
 ## ジグソーリーディング​
 - 学生同士の協同と相互依存を促す教授法（Wang et al., 2023）​
 - 学生は小グループに分かれ、各自が異なる情報を担当し、その内容の「エキスパート」となる。後に新たなグループで知識を共有し、トピックに対する全体的な理解を図る活動（Wang et al., 2023）​
@@ -140,10 +147,9 @@ knitr::include_graphics("pic/selfdetermination.png")
 knitr::include_graphics("pic/jigsaw.png")
 ```
 
-
 ## Wang et al. (2023)​
 - ジグソーリーディングによる動機づけへの影響​
-- 対象：イランの高校に通う3年生76名（実験群：38名、統制群：38名）​
+- 対象：イランの高校3年生76名（実験群：38名、統制群：38名）​
 - 協同学習：週に1回60分の授業を6週間受講​
   - 読解活動：3回​
   - 議論型の活動：3回​
@@ -152,14 +158,14 @@ knitr::include_graphics("pic/jigsaw.png")
 - 結果​
   - 実験群でのみ有意に向上​
 
-## 動機づけの向上への効果が期待される一方で…​
+## 動機づけの向上への効果が期待される一方で
 - Wang et al. (2023)​
   - 「内発的・外発的動機づけを効果的に高めることが示された」（p. 10）​
   - 質問紙の回答を全て一つの動機づけスコアに集約しており、どの動機づけが伸長したのか定かでない​
 
 ## 動機づけの伸長の過程が明らかでない​
-- 自己決定理論によると…​
-- 「基本的心理欲求の充足」-> 「動機づけの向上」​
+- 自己決定理論によると
+  - 「基本的心理欲求の充足」-> 「動機づけの向上」​
 ​
 - Alamdari and Ghani (2021, pp. 251–252)​
 
@@ -172,6 +178,39 @@ knitr::include_graphics("pic/jigsaw.png")
 ## 研究課題
 1. 協同学習により、基本的心理欲求は改善するか
 2. 協同学習により、英語学習動機づけは改善するか
+3. 基本的心理欲求の充足が動機づけの向上につながるか
+
+## 研究方法
+```{r echo = F, fig.align="center"}
+knitr::include_graphics("pic/procedure.png")
+```
+
+## 質問紙
+- Agawa and Takeuchi, 2016
+
+- 心理的欲求
+
+  - 自律性
+  - 有能感
+  - 関係性
+
+
+<div style="border: 3px solid blue; padding: 10px;">
+
+- **英語学習の動機づけ**
+
+  - 内発的動機付け
+
+  - 外発的動機付け
+
+    - ~~統合的~~
+
+    - 同一化 + 取り入れ的
+
+    - 外発的
+
+  - 無動機
+</div>
 
 ## 参加者：国内の大学生
 - 第2、第3発表者が週1回担当するクラス​
@@ -192,11 +231,6 @@ knitr::include_graphics("pic/jigsaw.png")
 - 受講者の英語のレベルは初中級（CEFR A2～B1）​
 
 - 事前に説明書を配布の上、説明し、同意した受講者のみが参加
-
-## 研究の流れ
-```{r echo = F, fig.align="center"}
-knitr::include_graphics("pic/procedure.png")
-```
 
 ## 処置群の授業
 - 使用テキスト​
@@ -252,7 +286,7 @@ knitr::include_graphics("pic/procedure.png")
   
   - グラフィックオーガナイザーの作成​
 
-4. クロストーク活動: ジグソー活動で深めた全体の理解を、クラス全体で更に深める​
+4. クロストーク活動：ジグソー活動で深めた全体の理解を、クラス全体で更に深める​
 
   - 発表会や相互評価を行う​
 
@@ -262,23 +296,23 @@ knitr::include_graphics("pic/procedure.png")
 
 ## 回帰分析
 
-- 従属変数：質問紙の得点（Agawa & Takeuchi, 2016）
+- 従属変数：質問紙の得点
 
 - 独立変数：
   - 交互作用
+<div style="border: 3px solid blue; padding: 10px;">
     - 質問紙実施のタイミング（開始/終了時）
     - 情意因子
       - 事前/事後の得点を合算し、基本的心理欲求、英語学習動機付けそれぞれで因子得点を算出
     - 調査グループ（統制/対照）
+</div>
+
   - 語彙サイズテスト得点（習熟度）
-    - V_YesNo v1.0 (Meara & Miralpeix, 2015)​
+    - V_YesNo v1.0 (Meara & Miralpeix, 2016)​
 
 - 欠損値を含む参加者のデータは除外をして分析を行った
 
 # 結果
-
-## 記述統計
-- 何を載せる方がよい？得点を見せても分かりずらい気もする
 
 ## モデルの確認
 ### 収束診断
@@ -298,7 +332,7 @@ knitr::include_graphics("pic/pp_check_fit1.png")
 - ランダム効果のみ: **.586, 95% CI[.577, .595]**
 
 ## モデルの結果
-- 質問紙実施のタイミング、情意因子、調査グループの3要因の交互作用に顕著な効果
+- 質問紙実施のタイミング、情意因子、調査グループの交互作用に顕著な効果
 
 - 習熟度の主効果はなし
 
@@ -348,6 +382,35 @@ knitr::include_graphics("pic/plot_group_em_Eng.png")
 # 今後の方向性
 - より長期的な視点で動機づけがどのように伸長するかを検証する（現在進行している調査）
 
-# 引用文献
+# 参考文献
+- Agawa, T., & Takeuchi, O. (2016). A new questionnaire to assess Japanese EFL learners' motivation: Development and validation. *ARELE: Annual Review of English Language Education in Japan, 27*, 1-16. https://doi.org/10.20581/arele.27.0_1 
+
+- Bećirović, S., Dubravac, V., & Brdarević-Čeljo, A. (2022). Cooperative learning as a pathway to strengthening motivation and improving achievement in an EFL classroom. *SAGE Open, 12*(1), 1–13. https://doi.org/10.1177/21582440221078016​
+
+- Busse, V., & Walter, C. (2013). Foreign language learning motivation in higher education: A longitudinal study of motivational changes and their causes. *The Modern Language Journal, 97*(2), 435–456. https://doi.org/10.1111/j.1540-4781.2013.12004.x​
+
+- Deci, E. L., & Ryan, R. M. (2017). *Self-determination theory: Basic psychological needs in motivation, development, and wellness*. The Guilford Press.​
+
+- Dörnyei, Z. (2001). *Motivational strategies in the language classroom*. Cambridge University Press.​
+
+- Dörnyei, Z., & Ushioda, E. (2010). *Teaching and researching motivation* (2nd ed.). Routledge.​
+
+- Fakhri Alamdari, E., & Ghani, F. (2022). Enhancing foreign language motivation through the magic of cooperative learning: Dream or reality? *Foreign Language Annals, 55*(1), 237–257. https://doi.org/10.1111/flan.12590​
+
+- Harter, S. (1981). A new self-report scale of intrinsic versus extrinsic orientation in the classroom: Motivational and informational components. *Developmental Psychology, 17*(3), 300–312. https://doi.org/10.1037/0012-1649.17.3.300​
+
+- Johnson, D. W., & Johnson, R. T. (1994). *Leading the cooperative school* (2nd ed.). Interaction Book Company.​
+
+- Meara, P., & Miralpeix, I. (2016). *Tools for researching vocabulary*. Multilingual Matters.
+
+- Nagle, C. (2018). Motivation, comprehensibility, and accentedness in L2 Spanish: Investigating motivation as a time‐varying predictor of pronunciation development. *The Modern Language Journal, 102*(1), 199–217. https://doi.org/10.1111/modl.12461​
+
+- Noels, K. A. (2023). *Self-Determination Theory and language learning*. In R. M. Ryan (Ed.), The Oxford handbook of self-determination theory (pp. 619–637). Oxford University Press. https://doi.org/10.1093/oxfordhb/9780197600047.013.31​
+
+- Schmidt, R., & Watanabe, Y. (2001). *Motivation, strategy use, and pedagogical preferences in foreign language learning*. In Z. Dörnyei & R. Schmidt (Eds.), Motivation and second language acquisition (pp. 313–359). University of Hawaii Press.​
+
+- Tsang, A. (2022). FL listening motivation, interest, linguistic self-confidence, and overall proficiency: A complete double mediation model. *System, 108*, 102833. https://doi.org/10.1016/j.system.2022.102833​
+
+- Wang, M., Alavi, M., & Izadpanah, S. (2023). The impact of jigsaw cooperative learning on academic motivation, academic hardiness, and self-efficacy of English Foreign Language learners, *Learning and Motivation, 84*, 101940. https://doi.org/10.1016/j.lmot.2023.101940
 
 # スライドの最後です
