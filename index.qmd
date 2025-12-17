@@ -59,7 +59,6 @@ knitr::include_graphics("pic/selfdetermination.png")
 ## 協同学習（Cooperative Learning）​
 
 - 学生同士が協力し合いながら、同じ学習目標の達成を目指すように授業を組み立てる指導法（Dörnyei & Ushioda, 2011）​
-  
 - 協同学習により、学習者の学習意欲が向上する可能性（Busse & Walter, 2013; Dörnyei, 2001）​
 
 ## Alamdari and Ghani (2021)​
@@ -187,7 +186,6 @@ knitr::include_graphics("pic/procedure.png")
   - 自律性
   - 有能感
   - 関係性
-
 
 <div style="border: 3px solid blue; padding: 10px;">
 
@@ -359,17 +357,17 @@ knitr::include_graphics("pic/plot_group_em_Eng.png")
 ## RQ 1
 - 基本的心理欲求の顕著な伸びが見られた
 
-- 先行研究の結果を支持
+- 先行研究を支持
 
 ## RQ 2
-- 英語学習動機づけに関して、顕著な伸びは見られなかった
+- 英語学習動機づけの顕著な伸びは見られなかった
 
-- 先行研究の結果と矛盾
+- 先行研究の結果と矛盾（e.g., Bećirović et al., 2022; Wang et al., 2023​）
 
-- 矛盾する理由を述べる
+  - （矛盾する理由を述べる）
 
-## 総括
-- 基本的心理欲求の向上が動機づけの向上に繋がるという点に関して、基本的心理欲求の向上が先行する点では先行研究の結果と一致している。
+## RQ 3
+- 基本的心理欲求の向上が動機づけの向上に先行する点では自己決定理論と一致 (Alamdari & Ghani, 2021)​
 
 # 教育的示唆
 
