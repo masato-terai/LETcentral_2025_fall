@@ -17,16 +17,9 @@ code-line-numbers: false
 # 先行研究
 
 ## 動機づけと外国語学習
-- 動機づけは外国語学習の成否を決定する1つの要因（e.g., Nagle, 2018; Tsang, 2022）​
+- 動機づけは外国語学習の成否を決定する1つの要因（e.g., Nagle, 2018）​
 ​
 - 継続的な学習を促す情緒的要因（Fakhri Alamdari & Ghani, 2022）​
-
-## Tsang (2022)​
-- 香港で英語を学ぶ小学3年生と4年生を対象に、リスニングの動機づけと四技能の関係を調査​
-  
-- 相関分析：リスニング動機づけと四技能の総合得点との間に有意な相関関係（*r* = .40）​
-  
-- 階層的重回帰分析・パス解析：リスニング動機づけと四技能の間に直接的な関係なし​
 
 ## Nagle (2018)​
 - 英語母語スペイン語学習者の動機づけと発音の縦断的発達を調査​
@@ -400,8 +393,6 @@ knitr::include_graphics("pic/plot_group_em_Eng.png")
 - Noels, K. A. (2023). *Self-Determination Theory and language learning*. In R. M. Ryan (Ed.), The Oxford handbook of self-determination theory (pp. 619–637). Oxford University Press. https://doi.org/10.1093/oxfordhb/9780197600047.013.31​
 
 - Schmidt, R., & Watanabe, Y. (2001). *Motivation, strategy use, and pedagogical preferences in foreign language learning*. In Z. Dörnyei & R. Schmidt (Eds.), Motivation and second language acquisition (pp. 313–359). University of Hawaii Press.​
-
-- Tsang, A. (2022). FL listening motivation, interest, linguistic self-confidence, and overall proficiency: A complete double mediation model. *System, 108*, 102833. https://doi.org/10.1016/j.system.2022.102833​
 
 - Wang, M., Alavi, M., & Izadpanah, S. (2023). The impact of jigsaw cooperative learning on academic motivation, academic hardiness, and self-efficacy of English Foreign Language learners, *Learning and Motivation, 84*, 101940. https://doi.org/10.1016/j.lmot.2023.101940
 
